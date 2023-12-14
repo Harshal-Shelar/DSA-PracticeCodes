@@ -1,0 +1,19 @@
+.arrayMain {
+    margin: 0 auto;
+    width: 1000px;
+
+    .innerClass {
+        display: flex;
+        gap: 2rem;
+        margin-top: 2rem;
+
+        .form-control {
+            width: 100%;
+        }
+    }
+
+    h2 {
+        color: whitesmoke;
+        text-align: center;
+    }
+}

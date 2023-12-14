@@ -1,0 +1,9 @@
+<div class="insertionMain">  
+    <h1>Array Insertion</h1>  
+    <span>{{data}}</span>
+    <input type="text" class="form-control" [value]="inputVal" [(ngModel)]="newEl" placeholder="Enter New Element">
+    <input type="text" class="form-control" [value]="inputVal" [(ngModel)]="position" placeholder="Enter Position">
+    <button (click)="addElement()">Insert</button>
+    <br/>
+    <h2>{{globalArray}}</h2>
+</div>

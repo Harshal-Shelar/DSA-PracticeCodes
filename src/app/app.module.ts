@@ -3,14 +3,26 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { ArrayTraversingComponent } from './components/array-traversing/array-traversing.component';
+import { HomePageComponent } from './components/home-page/home-page.component';
+import { FormsModule } from '@angular/forms';
+import { ArrayInsertionComponent } from './components/array-insertion/array-insertion.component';
+import { ArrayDeletionComponent } from './components/array-deletion/array-deletion.component';
+import { ArraySearchingComponent } from './components/array-searching/array-searching.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    ArrayTraversingComponent,
+    HomePageComponent,
+    ArrayInsertionComponent,
+    ArrayDeletionComponent,
+    ArraySearchingComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

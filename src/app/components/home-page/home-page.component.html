@@ -1,0 +1,9 @@
+<div class="homePageMain">
+    <h1>List of All DSA Codes</h1>
+    <div class="innerCard" *ngFor="let item of dsaList">
+        <div class="card">
+            <span>{{item.name}}</span><br/>
+            <button routerLink="{{item.router}}">Open</button>
+        </div>
+    </div>
+  </div>

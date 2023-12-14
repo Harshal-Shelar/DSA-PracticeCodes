@@ -1,0 +1,8 @@
+<div class="insertionMain">  
+    <h1>Array Deletion</h1>  
+    <span>{{data}}</span>
+    <input type="text" class="form-control" [value]="inputVal" [(ngModel)]="search" placeholder="Enter Position">
+    <button (click)="searchElement()">Search</button>
+    <br/>
+    <h2 *ngIf="result">Element Present at :- {{index}} position</h2>
+</div>
