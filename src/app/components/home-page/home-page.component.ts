@@ -12,6 +12,7 @@ export class HomePageComponent implements OnInit {
     {name : 'Array Insertion', router : 'insertion'},
     {name : 'Array Deletion', router : 'deletion'},
     {name : 'Array Searching', router : 'searching'},
+    {name : 'Array Merging', router : 'merge'},
   ]
   constructor() { }
 

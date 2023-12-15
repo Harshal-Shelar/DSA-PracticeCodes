@@ -5,6 +5,7 @@ import { HomePageComponent } from './components/home-page/home-page.component';
 import { ArrayInsertionComponent } from './components/array-insertion/array-insertion.component';
 import { ArrayDeletionComponent } from './components/array-deletion/array-deletion.component';
 import { ArraySearchingComponent } from './components/array-searching/array-searching.component';
+import { ArrayMergeComponent } from './components/array-merge/array-merge.component';
 
 const routes: Routes = [
   {path :'', component : HomePageComponent},
@@ -12,6 +13,7 @@ const routes: Routes = [
   { path: 'insertion', component: ArrayInsertionComponent },
   { path: 'deletion', component: ArrayDeletionComponent },
   { path: 'searching', component: ArraySearchingComponent },
+  { path: 'merge', component: ArrayMergeComponent },
 ];
 
 @NgModule({
